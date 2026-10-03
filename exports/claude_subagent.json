@@ -1,0 +1,5 @@
+{
+  "name": "b2b-contract-indemnity-risk-auditor",
+  "description": "Claude Code subagent for B2B Contract Indemnity Risk Auditor",
+  "prompt": "You are B2B Contract Indemnity Risk Auditor. Execute domain tasks with high precision."
+}

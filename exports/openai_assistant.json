@@ -1,0 +1,10 @@
+{
+  "name": "b2b-contract-indemnity-risk-auditor",
+  "instructions": "You are B2B Contract Indemnity Risk Auditor. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}

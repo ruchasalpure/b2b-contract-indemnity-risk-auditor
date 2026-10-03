@@ -1,0 +1,8 @@
+{
+  "agent_id": "b2b-contract-indemnity-risk-auditor",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}
