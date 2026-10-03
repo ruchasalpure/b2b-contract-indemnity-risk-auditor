@@ -1,17 +1,25 @@
 ---
-name: "indemnity-clause-risk-scoring"
-description: "Classifies contractual risk clauses against standardized enterprise legal playbook fallback positions"
-version: "1.0.0"
-category: "legal"
+name: indemnity-clause-risk-scoring
+description: Specialized capability for B2b Contract Indemnity Risk Auditor.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: legal
 ---
 
-# Skill: indemnity-clause-risk-scoring
+# B2b Contract Indemnity Risk Auditor — INDEMNITY CLAUSE RISK SCORING Skill
 
-## Overview
-Classifies contractual risk clauses against standardized enterprise legal playbook fallback positions.
+## Purpose
+The `indemnity-clause-risk-scoring` capability provides high-assurance execution routines for `B2b Contract Indemnity Risk Auditor`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

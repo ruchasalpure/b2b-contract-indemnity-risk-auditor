@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: b2b-contract-indemnity-risk-auditor
-runtime: python3.11
-entrypoint: agent.py

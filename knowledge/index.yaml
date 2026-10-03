@@ -1,5 +1,0 @@
-domain_knowledge:
-  category: "legal"
-  agent: "b2b-contract-indemnity-risk-auditor"
-  ontology: "OpenGAP Core Ontology v1.0"
-  indexed_entities: 1024

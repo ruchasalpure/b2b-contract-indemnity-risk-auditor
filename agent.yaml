@@ -1,26 +1,30 @@
 spec_version: "0.1.0"
-name: "b2b-contract-indemnity-risk-auditor"
-version: "1.0.0"
-category: "legal"
+name: b2b-contract-indemnity-risk-auditor
+version: 1.0.0
+description: Parses Master Service Agreements (MSAs) to detect uncapped liability clauses, non-mutual indemnification terms, and consequential damage waivers.
 author: "Rucha Salpure"
-description: "Parses Master Service Agreements (MSAs) to detect uncapped liability clauses, non-mutual indemnification terms, and consequential damage waivers"
-capabilities:
-  - "indemnity-clause-risk-scoring"
-  - "autonomous-decision-making"
-  - "explainable-auditing"
-  - "multi-agent-collaboration"
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
 skills:
-  - "indemnity-clause-risk-scoring"
-tools:
-  - "python_executor"
-  - "audit_logger"
-  - "schema_validator"
+  - indemnity-clause-risk-scoring
+tools: []
+delegation:
+  mode: auto
 runtime:
-  environment: "python3.11"
-  memory_limit: "4GB"
-  timeout_seconds: 300
-governance:
-  audit_logging: true
-  human_in_the_loop: false
-  maker_checker: true
-  explainability_required: true
+  max_turns: 50
+  timeout: 300
+compliance:
+  risk_tier: standard
+  frameworks: []
+tags:
+  - legal
+  - autonomous-agent
+  - opengap-verified
+metadata:
+  repository: "https://github.com/ruchasalpure/b2b-contract-indemnity-risk-auditor"
